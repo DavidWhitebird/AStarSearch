@@ -9,7 +9,7 @@ Basic Construction of Algorithm:
 	Examine all current node edges
 		Calculate estimate to get to goal node from each connected edge by given heuristic
 			Place all connected edges into priority queue (frontier) by their estimated cost to the goal
-				Repeat for node at head of queue
+				Repeat for node at head of queue until goal node is reached
 ----------------------------------
 
 The heuristic is simply an estimated cost guaranteed to be less than the actual cost.
