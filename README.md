@@ -17,6 +17,6 @@ For NP complete problems, or problems with high-cost optimal solutions in genera
 
 The specific problem addressed here is finding the lowest mileage path to get from one major Minnesota city to another. We are given the distance between connected cities, and an estimate from each city to the goal city. The actual cost from connected cities input is from MNDOT. The heuristic input is an "as the crow flies" straight distance between all cities (actually this one is just randomly lowered amounts of the actual calculated distance between all cities).
 
-When ran from MainUI, the program will present the user with a GUI requesting start & end cities in Minnesota. After selecting the cities, it will run the search and create a file of the output notifying the user of its location.
+When ran from MainUI, the program will present the user with a GUI requesting to choose start & end cities in Minnesota. There is a dropdown list of about 50 cities. After selecting the cities, it will run the search and create a file of the output named after the cities, notifying the user of the file location.
 
 The text file shows the entire progress of the search, displaying the updated frontier for each city it moves to to calculate, as well as total miles through each city in the final optimal path.
